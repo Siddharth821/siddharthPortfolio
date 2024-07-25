@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siddharth - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #2e5295;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+    .section {
+      border: 4px solid rgb(218, 199, 176);
+      background-color: #f4fdff;
+      padding: 2rem;
+      margin: 1rem auto;
+      border-radius: 0.5rem;
+      max-width: 1000px;
+    }
+    .header-bg {
+      background: linear-gradient(to right, #2563eb, #3b82f6);
+    }
+    .btn-primary {
+      background: linear-gradient(to right, #2563eb, #3b82f6);
+    }
+    .text-lg {
+      font-size: 0.98rem;
+    }
+    .skills-list {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="header-bg text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Siddhartha S</h1>
+      <nav>
+        <a href="#about" class="px-3 py-2 hover:underline">About</a>
+        <a href="#projects" class="px-3 py-2 hover:underline">Projects</a>
+        <a href="#personal-details" class="px-3 py-2 hover:underline">Personal Details</a>
+        <a href="#skills" class="px-3 py-2 hover:underline">Skills</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="container mx-auto my-10 section shadow-lg text-lg">
+    <h2 class="text-2xl font-bold mb-4">About Me</h2>
+    <p>Recent graduate with a good foundation in software development, particularly in Java programming and familiarity with object-oriented principles, data structures, and algorithms. Trained at KodNest Technologies, I have acquired skills in Java, Spring Boot, MySQL, JavaScript, React JS, HTML and CSS. Enthusiastic team player eager to contribute to real-world projects and gain practical experience in software development.</p>
+    <div class="mt-4">
+      <p><i class="fas fa-map-marker-alt mr-2"></i><strong>Address:</strong> KR Layout, JP Nagar phase 6, Bangalore-78, Karnataka </p>
+      <p><i class="fas fa-phone mr-2"></i><strong>Mobile:</strong> <a href="tel:8660963301" class="text-blue-600">(+91) 8660963301</a></p>
+      <p><i class="fas fa-envelope mr-2"></i><strong>Email:</strong> <a href="mailto:siddharth4224@gmail.com.com" class="text-blue-600">siddharth4224@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section id="projects" class="container mx-auto my-10 section shadow-lg text-lg">
+    <h2 class="text-2xl font-bold mb-4">Projects</h2>
+    <div class="bg-blue-100 p-4 rounded">
+      <h3 class="text-xl font-bold mb-2">TuneHub</h3>
+      <p>TuneHub is a web-based music streaming application 
+        designed to provide users with a seamless and 
+        personalized music listening experience. The application 
+        allows admin users to add new songs and create playlists. 
+        Customers can explore and listen to these songs with a 
+        premium subscription. Utilizing APIs, TuneHub fetches and 
+        streams music tracks, playlists, and artist information.<br>
+        The application aims to enhance user engagement by 
+        offering music discovery and the ability to create 
+        personalized playlists.
+        <strong>Technologies used:</strong> Java, MySQL, Spring boot, HTML, CSS, 
+        ReactJS
+        </p>
+    </div>
+  </section>
+
+  <section id="personal-details" class="container mx-auto my-10 section shadow-lg text-lg">
+    <h2 class="text-2xl font-bold mb-4">Personal Details</h2>
+    <div class="personal-details-text">
+      <p><strong>Full Name:</strong> Siddhartha S</p>
+      <p><strong>Date of Birth:</strong> April 19, 2002</p>
+      <p><strong>Nationality:</strong> Indian</p>
+      <p><strong>Address:</strong> Bangalore, Karnataka</p>
+      <p><strong>Languages:</strong> English, Hindi, Kannada</p>
+    </div>
+  </section>
+
+  <section id="skills" class="container mx-auto my-10 section shadow-lg text-lg">
+    <h2 class="text-2xl font-bold mb-4">Technical Skills</h2>
+    <div class="bg-blue-100 p-4 rounded">
+    <ul class="skills-list">
+      <li>Java Development</li>
+      <li>Spring Boot</li>
+      <li>Javascript</li>
+      <li>ReactJS</li>
+      <li>MySQL</li>
+      <li>HTML & CSS</li>
+    </ul>
+  </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
